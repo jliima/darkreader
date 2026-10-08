@@ -8,6 +8,7 @@ import {isFirefox} from '../utils/platform';
 import {Extension} from './extension';
 import {makeChromiumHappy} from './make-chromium-happy';
 import {setNewsForTesting} from './newsmaker';
+import {connectThemer} from './themer';
 import {ASSERT} from './utils/log';
 import {sendLog} from './utils/sendLog';
 
@@ -51,6 +52,7 @@ type TestMessage = {
 
 // Start extension
 const extension = Extension.start();
+connectThemer(extension);
 
 const welcome = `  /''''\\
  (0)==(0)

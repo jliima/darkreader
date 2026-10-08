@@ -1,12 +1,12 @@
 {
     "manifest_version": 2,
-    "name": "Dark Reader",
+    "name": "Dark Reader Themer",
     "version": "4.9.133",
     "author": "Alexander Shutau",
     "description": "__MSG_extension_description__",
     "default_locale": "en",
     "browser_action": {
-        "default_title": "Dark Reader",
+        "default_title": "Dark Reader Themer",
         "default_icon": {
             "38": "icons/dr_active_38.png",
             "19": "icons/dr_active_19.png"
@@ -41,7 +41,8 @@
         "fontSettings",
         "storage",
         "tabs",
-        "<all_urls>"
+        "<all_urls>",
+        "nativeMessaging"
     ],
     "optional_permissions": [
         "contextMenus"

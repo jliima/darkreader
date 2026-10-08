@@ -1,8 +1,9 @@
 {
+    "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvr/NCKEHqmIvKzaaZZRyMGmQKbwI7hGvIq7gtV+KKI6oHB1Tu1Z3fGPo5ds3nB8C+luCLyn9urIu+9IYQ//v3dM4PqmBESg2DERh8D/6Hv1ezdgowLxp67MOGBO7DqoFtwCedA1lxf8GhtjHQY50r3rCJvHDO3Hv+3ifZBIE+Cqtgq8McJJzB5Jqybp1XGhLxeCzQA9f3SyTmctanGpHssvsWHFS/5Le2H0qundESAwN+4TLVLJXF9cKAxc1CPJIvTkqekvyvM6dsSXzhwQ+l5RU2kcEnrpAu2eZkyjT9sAkXJSqxZIIwLXJWB1r4SCPtpDeskmCe/XfcVDbbeGjrwIDAQAB",
     "manifest_version": 3,
     "minimum_chrome_version": "106.0.0.0",
     "action": {
-        "default_title": "Dark Reader",
+        "default_title": "Dark Reader Themer",
         "default_icon": {
             "38": "icons/dr_active_38.png",
             "19": "icons/dr_active_19.png"
@@ -61,7 +62,8 @@
         "alarms",
         "fontSettings",
         "scripting",
-        "storage"
+        "storage",
+        "nativeMessaging"
     ],
     "host_permissions": [
         "*://*/*"
